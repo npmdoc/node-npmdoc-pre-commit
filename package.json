@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"pre-commit",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "pre-commit",
+    "description": "api documentation for [pre-commit (v1.2.2)](https://github.com/observing/pre-commit) [![npm package](https://img.shields.io/npm/v/npmdoc-pre-commit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pre-commit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pre-commit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pre-commit)",
     "devDependencies": {
-        "pre-commit": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "pre-commit": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-pre-commit",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-pre-commit",
+    "keywords": [
+        "documentation",
+        "pre-commit"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_pre_commit.js",
+    "name": "npmdoc-pre-commit",
+    "nameAlias": "npmdoc_pre_commit",
+    "nameOriginal": "npmdoc-pre-commit",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-pre-commit.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
