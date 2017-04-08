@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/pre-commit.png?downloads=true)](https://www.npmjs.com/package/pre-commit)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-pre-commit%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-pre-commit%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.npmPackageListing.svg)
 
