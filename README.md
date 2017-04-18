@@ -1,9 +1,14 @@
-# api documentation for  [pre-commit (v1.2.2)](https://github.com/observing/pre-commit)  [![npm package](https://img.shields.io/npm/v/npmdoc-pre-commit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pre-commit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pre-commit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pre-commit)
+# npmdoc-pre-commit
+
+#### api documentation for  [pre-commit (v1.2.2)](https://github.com/observing/pre-commit)  [![npm package](https://img.shields.io/npm/v/npmdoc-pre-commit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pre-commit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pre-commit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pre-commit)
+
 #### Automatically install pre-commit hooks for your npm modules.
 
-[![NPM](https://nodei.co/npm/pre-commit.png?downloads=true)](https://www.npmjs.com/package/pre-commit)
+[![NPM](https://nodei.co/npm/pre-commit.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pre-commit)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-pre-commit%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pre-commit/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pre-commit/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Arnout Kazemier",
-        "email": "opensource@observe.it"
+        "name": "Arnout Kazemier"
     },
     "bugs": {
         "url": "https://github.com/observing/pre-commit/issues"
@@ -56,21 +60,17 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "swaagie",
-            "email": "info@martijnswaagman.nl"
+            "name": "swaagie"
         },
         {
-            "name": "3rdeden",
-            "email": "npm@3rd-Eden.com"
+            "name": "3rdeden"
         },
         {
-            "name": "v1",
-            "email": "info@3rd-Eden.com"
+            "name": "v1"
         }
     ],
     "name": "pre-commit",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/observing/pre-commit.git"
@@ -87,17 +87,6 @@
     "version": "1.2.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module pre-commit](#apidoc.module.pre-commit)
-1.  object <span class="apidocSignatureSpan">pre-commit.</span>log
-
-
-
-# <a name="apidoc.module.pre-commit"></a>[module pre-commit](#apidoc.module.pre-commit)
 
 
 

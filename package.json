@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "pre-commit",
-    "description": "api documentation for [pre-commit (v1.2.2)](https://github.com/observing/pre-commit) [![npm package](https://img.shields.io/npm/v/npmdoc-pre-commit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pre-commit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pre-commit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pre-commit)",
+    "description": "#### api documentation for  [pre-commit (v1.2.2)](https://github.com/observing/pre-commit)  [![npm package](https://img.shields.io/npm/v/npmdoc-pre-commit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pre-commit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pre-commit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pre-commit)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "pre-commit": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.3"
+    "version": "0.0.4"
 }
